@@ -1,1 +1,4 @@
-<script type="text/javascript" src="bundle.js"></script>
+const NotesModel = require('../notesModel')
+const notes = new NotesModel
+
+console.log(notes.getNotes())
